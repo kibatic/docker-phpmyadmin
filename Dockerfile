@@ -9,9 +9,6 @@ RUN unzip /6e12da059eb127d0791ce984ee3f8a2153045082.zip
 RUN mkdir /etc/phpmyadmin/discovery
 RUN mv /phpmyadmin-docker-discovery-*/* /etc/phpmyadmin/discovery
 
-#RUN apk add --update curl php7 php7-phar && rm -rf /var/cache/apk/*
-#RUN curl -sS https://getcomposer.org/installer | php7 -- --install-dir=/usr/bin --filename=composer
-
 RUN apk add --update --no-cache \
     wget \
     curl \
