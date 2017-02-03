@@ -1,0 +1,9 @@
+pma:
+  build: .
+  container_name: pma-discovery
+  volumes:
+    - ./phpmyadmin-docker-discovery:/etc/phpmyadmin/discovery
+    - /var/run/docker.sock:/tmp/docker.sock:ro
+  environment:
+    DOCKER_HOST: unix:///tmp/docker.sock
+    VIRTUAL_HOST: pma-discovery.dev
