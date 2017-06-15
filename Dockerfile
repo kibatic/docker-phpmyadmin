@@ -5,7 +5,7 @@ MAINTAINER Jeremy Crombez <jeremy.crombez [at] kibatic.com>
 ADD etc/phpmyadmin/config.user.inc.php /etc/phpmyadmin/config.user.inc.php
 
 ADD https://github.com/kibatic/phpmyadmin-docker-discovery/archive/69177be290e7c8f41a0674b9e978d079005e959e.zip /
-RUN unzip /6e12da059eb127d0791ce984ee3f8a2153045082.zip
+RUN unzip /69177be290e7c8f41a0674b9e978d079005e959e.zip
 RUN mkdir /etc/phpmyadmin/discovery
 RUN mv /phpmyadmin-docker-discovery-*/* /etc/phpmyadmin/discovery
 
