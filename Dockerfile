@@ -4,7 +4,7 @@ MAINTAINER Jeremy Crombez <jeremy.crombez [at] kibatic.com>
 
 ADD etc/phpmyadmin/config.user.inc.php /etc/phpmyadmin/config.user.inc.php
 
-ENV PMA_DOCKER_DISCOVERY_VERSION=5b45cbd1ee1b72aa14080173fd3c1682ccc7f976
+ENV PMA_DOCKER_DISCOVERY_VERSION=653a566edea0bba64db9703a91a66cb81b232284
 
 RUN apk add --update --no-cache \
     wget \
