@@ -1,4 +1,4 @@
-FROM phpmyadmin/phpmyadmin:4.8
+FROM phpmyadmin/phpmyadmin:4.7.3-1
 
 MAINTAINER Jeremy Crombez <jeremy.crombez [at] kibatic.com>
 
